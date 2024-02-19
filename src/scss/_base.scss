@@ -39,6 +39,43 @@ video {
   vertical-align: middle;
 }
 
+.formulaire {
+  background: #15172b;
+  color: #dc2e55;
+  padding: 39px;
+  width: 476px;
+}
+
+p {
+  display: flex;
+  width: 280px;
+  height: 21px;
+  align-items: start;
+  flex-shrink: 0;
+  color: #dc2e55;
+}
+
+input,
+textarea,
+select {
+  background-color: #303245;
+  border: none;
+  color: #65657a;
+  padding: 10px;
+}
+
+.box {
+  margin-top: 30px;
+}
+
+.bouton-envoyer {
+  width: 100%;
+  background-color: #0088dd;
+  height: 50px;
+  flex-shrink: 0;
+  color: #fff;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
