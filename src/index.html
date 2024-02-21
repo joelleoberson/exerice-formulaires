@@ -18,19 +18,37 @@
         </div>
 
         <div class="box">
-          <input type="radio" name="pays" value="Français" /> Français <br />
-          <input type="radio" name="pays" value="Allemand" /> Allemand <br />
-          <input type="radio" name="pays" value="Italien" /> Italien <br />
+          <label class="radio">
+            <input type="radio" name="pays" value="Français" />
+            <div class="radio-placeholder"></div>
+            Français <br />
+          </label>
+          <label class="radio">
+            <input type="radio" name="pays" value="Allemand" />
+            <div class="radio-placeholder"></div>
+            Allemand <br />
+          </label>
+          <label class="radio">
+            <input type="radio" name="pays" value="Italien" />
+            <div class="radio-placeholder"></div>
+            Italien <br />
+          </label>
         </div>
 
         <div class="box">
-          <label>
+          <label class="switch">
             <input type="checkbox" name="conditions" />
+            <div class="switch-wrapper">
+              <div class="switch-inner"></div>
+            </div>
             S’abonner à la newsletter
           </label>
           <br />
-          <label>
+          <label class="switch">
             <input type="checkbox" name="conditions" />
+            <div class="switch-wrapper">
+              <div class="switch-inner"></div>
+            </div>
             J’accepte les conditions générales
           </label>
           <br />

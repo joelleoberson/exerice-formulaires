@@ -62,6 +62,23 @@ select {
   border: none;
   color: #65657a;
   padding: 10px;
+  border-radius: 7px;
+}
+
+.radio-placeholder {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #65657a;
+}
+
+input:checked + .radio-placeholder {
+  background: #dc2e55;
+}
+
+.radio input {
+  display: none;
 }
 
 .box {
@@ -74,6 +91,30 @@ select {
   height: 50px;
   flex-shrink: 0;
   color: #fff;
+}
+
+.switch-wrapper {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 10px;
+  background: orange;
+}
+
+.switch-inner {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: red;
+}
+
+input:checked + .switch-wrapper .switch-inner {
+  margin-left: 10px;
+}
+
+.switch input {
+  display: none;
 }
 
 /* ====================================
