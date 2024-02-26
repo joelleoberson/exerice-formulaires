@@ -75,6 +75,8 @@ select {
 
 input:checked + .radio-placeholder {
   background: #dc2e55;
+  width: 10px;
+  height: 10px;
 }
 
 .radio input {
@@ -95,22 +97,23 @@ input:checked + .radio-placeholder {
 
 .switch-wrapper {
   display: inline-block;
-  width: 30px;
-  height: 20px;
-  padding: 2px;
+  width: 35px;
+  height: 14px;
   border-radius: 10px;
-  background: orange;
+  background: rgba(#f44335, 50%);
 }
 
 .switch-inner {
-  width: 16px;
-  height: 16px;
-  border-radius: 8px;
-  background: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: #f44335;
+  margin-top: -3px;
+  transition: margin 0.5s;
 }
 
 input:checked + .switch-wrapper .switch-inner {
-  margin-left: 10px;
+  margin-left: 14px;
 }
 
 .switch input {
